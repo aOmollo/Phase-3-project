@@ -80,6 +80,9 @@ e.	Area code
 ![image](https://github.com/aOmollo/Phase-3-project/assets/146751854/3c5da096-addc-4c54-82d7-4b46404567b1)  
 
 **Graph of Churn against Voice Mail Plan**   
+![image](https://github.com/aOmollo/Phase-3-project/assets/146751854/191bf4cb-e361-4d41-b4b6-240109463061)    
+
+
 **Models’ Results**   
 <img width="278" alt="Capture" src="https://github.com/aOmollo/Phase-3-project/assets/146751854/5094130f-0fac-4dc0-bd73-1ece94070ec2">   
 ![image](https://github.com/aOmollo/Phase-3-project/assets/146751854/248fef04-8c23-4946-b08a-78b1e2675208)    
