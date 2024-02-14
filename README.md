@@ -87,6 +87,38 @@ e.	Area code
 The best model is gradient boosting classifier with an accuracy score of 0.9100 for test and 0.9098 for training. This model tends to be more robust to overfitting compared to other models. This model demonstrates good generalization ability.    
 
 **Visualization of ROC Curve of Gradient Boosting Classifier.**  
+![image](https://github.com/aOmollo/Phase-3-project/assets/146751854/a1a1bf4a-2f12-4c52-ad01-f0d78a50bc5f)   
+
+
+**Limitations**     
+●	Fine Tuning Constraints: Fine-tuning hyperparameters can be time-consuming, especially for models with complex architectures or large parameter spaces.  
+●	Computation Costs of Models with Large Parameter Spaces: Models like ensemble methods with numerous estimators require significant computational resources for training and evaluation. Training time may increase exponentially with the parameter space size, limiting scalability and applicability. High computational costs may restrict deployment in real-time or resource-constrained environments.   
+●	Need for Comprehensive Pre-Modelling Analysis: Adequate feature engineering and exploratory data analysis are vital for identifying relevant features and understanding data distribution. Inadequate data preprocessing may lead to suboptimal performance or biased predictions. Insufficient data exploration before modelling may overlook crucial patterns, affecting interpretability and generalization.   
+
+**Recommendations**   
+a.	Customer Segmentation: Utilize the identified key features, such as total day charge, customer service call, voice mail plan, area code, and total day minutes, to segment customers based on their churn risk levels.     
+b.	Tailor retention strategies and marketing campaigns to address the specific needs and behaviors of each segment. For example:    
+* Giving discounts to area code 415 since it had the highest customer churn rate  
+* Increasing marketing campaigns to area code 415   
+* Improve customer service to ensure customers are adequately assisted when they make their first call   
+* Include voice mail plan in the standard package    
+* To provide loyalty rewards, bonus minutes, and special discounts to customers with high total day charge    
+* Offer specialized plans that provide discounted rates for calls made during the day   
+c.	Use Gradient Boosting classifier as the model of choice for forecasting. The Gradient Boosting Classifier has demonstrated strong predictive power, robustness to overfitting in churn prediction.   
+d.	Intensive exploratory Data Analysis (EDA): Perform comprehensive exploratory data analysis to uncover hidden patterns and insights in the data. Visualizations and descriptive statistical analyses can help identify relationships between features and the target variable, guiding feature selection and modeling decisions.
+ 
+**Conclusion**  
+In conclusion, based on the model's accuracy and auc scores, Gradient Boosting classifier is the best model to predict churn of SyriaTel's customers towards strategizing, saving costs, and prioritizing resources to increase profits. Also, customer service call, total day charge, total day minute, voice mail plan, and area codes are the most important that determine whether a customer will churn or note    
+
+**Future Work**  
+●	Explore advanced machine learning techniques, such as deep learning or ensemble methods, to further improve predictive accuracy and model performance.  
+
+**REPOSITORY STRUCTURE**  
+• Data: Contains the raw CSV dataset ("bigml_59c28831336c6604c800002a.csv") from Syrian Tel Communication used for analysis.  
+• Notebooks: Includes Jupyter Notebooks detailing the entire analysis process.   
+• README.md: Provides an overview of the project.  
+• Presentation: Contains the presentation slides in pdf detailing the project findings.  
+
 
 
 
